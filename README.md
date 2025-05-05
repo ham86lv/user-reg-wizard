@@ -41,7 +41,7 @@ Testing Library and Vitest, and provide examples for testing form validation and
 1. Clone the repository:
 
    ```bash
-   git clone https://your-repository-url
+   git clone https://github.com/ham86lv/user-reg-wizard
    cd your-project-directory
    ```
 
