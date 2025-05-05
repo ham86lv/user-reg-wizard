@@ -87,7 +87,7 @@ Testing Library and Vitest, and provide examples for testing form validation and
 2. Run the container:
 
    ```bash
-   docker run -d -p 3000:80 user-reg-wizard
+   docker run -d --name user-reg-wizard -p 3000:80 user-reg-wizard
    ```
 
    The app will be available at `http://localhost:3000`.
