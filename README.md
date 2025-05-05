@@ -71,10 +71,10 @@ Testing Library and Vitest, and provide examples for testing form validation and
 
    ```bash
    npm install -g serve
-   serve -s build
+   serve -s dist
    ```
 
-   The app will be served at `http://localhost:5000` by default.
+   The app will be served at `http://localhost:3000` by default.
 
 ### Running the Project in Production Mode (With Docker)
 
@@ -87,10 +87,10 @@ Testing Library and Vitest, and provide examples for testing form validation and
 2. Run the container:
 
    ```bash
-   docker run -d -p 80:80 user-reg-wizard
+   docker run -d -p 3000:80 user-reg-wizard
    ```
 
-   The app will be available at `http://localhost`.
+   The app will be available at `http://localhost:3000`.
 
 ### Running Tests
 
